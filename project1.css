@@ -1,0 +1,169 @@
+.header {
+    display: inline;
+    /* margin: 0px 10px 0px 1150px; */
+    font-size: 30px;
+}
+
+.header1 {
+    display: inline;
+    margin: 0px 4px;
+    font-size: 30px;
+}
+
+.header2 {
+    display: inline;
+    font-size: 30px;
+
+}
+
+.headertag {
+    color: black;
+    padding-left: 1250px;
+    justify-content: space-between;
+}
+
+a {
+    display: inline;
+    justify-content: 10px;
+    color: black;
+    font-size: 30px;
+    border-style: initial;
+    border: 10px 5px 15px 25px;
+}
+
+body {
+    height: 1500px;
+}
+
+/* home page background image  */
+#Home {
+    /* background-image: url(default-header-image.png); */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+/* .content:hover{
+    top: 1%;
+    opacity: 0.5;
+    visibility: inherit;  
+} */
+ol {
+    margin: 0;
+    float: right;
+    padding: 8px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    font-size: 30px;
+}
+
+.headerimage {
+    height: 420px;
+    background-position: center;
+    position: relative;
+    background-image: url(default-header-image.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.content {
+    /* margin: 150px 10px 20px 45px; */
+    /* padding: 10px 50px 2px 550px; */
+    position: relative;
+    align-items: center;
+    padding-left: 295px;
+    padding-right: 125px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 292px;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 120px;
+    font-size: 55px;
+    color: bisque;
+    justify-content: space-between;
+}
+
+.homecontent {
+    font-size: 20px;
+    color: rgb(68, 66, 66);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* comment */
+.comment {
+    padding-left: 290px;
+    font-size: 20px;
+}
+
+.Name {
+    font-size: 20px;
+    padding-left: 290px;
+}
+
+.submit {
+    margin-left: 290px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(236, 202, 12);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: wheat;
+    }
+}
+
+.Footer-page {
+    /* padding-left: 100px; */
+    background-color: black;
+
+}
+
+#search {
+    /* width: 3px;
+    height: 50px; */
+    color: white;
+    display: inline;
+    /* form{ */
+        /* margin-top: 0px; */
+        /* padding-top: 100px; */
+        /* display: inline; */
+    /* } */
+}
+
+#Categories {
+    color: white;
+    display: inline;
+    /* float: inline-end; */
+    /* padding-right: 500px; */
+    /* display: flex; */
+}
+
+.recent-post {
+    color: white;
+
+    a {
+        color: white;
+    }
+}
+
+
+div.cate1{
+    display: inline;
+}
+
+.recent-comment{
+    color: white;
+}
